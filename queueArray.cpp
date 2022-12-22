@@ -65,7 +65,8 @@ int main(){
                 q.enqueue(ip);
                 break;
             case 2:
-               
+                
+                
                 q.dequeue();
                 
                 break;
