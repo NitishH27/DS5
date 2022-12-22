@@ -41,7 +41,7 @@ class queue{
             
                 else
                     if( front == rear )
-                     front = rear = -1;
+                     front = rear = +1;
                     else
                     front++;
         
@@ -65,7 +65,7 @@ int main(){
                 q.enqueue(ip);
                 break;
             case 2:
-                
+               
                 q.dequeue();
                 
                 break;
